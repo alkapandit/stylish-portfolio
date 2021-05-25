@@ -1,0 +1,81 @@
+*,html,body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+.firstImage{
+    background-image: url("images/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.welcomeImage{
+    background-image: url("images/bg-callout.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.boxImage1{
+    background-image: url("images/portfolio-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.boxImage2{
+    background-image: url("images/portfolio-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.boxImage3{
+    background-image: url("images/portfolio-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.boxImage4{
+    background-image: url("images/portfolio-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.containerPadding{
+    padding-top: 25%;
+    padding-bottom: 20%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.projectPadding{
+    padding: 10% 5%;
+}
+.buttonPadding1{
+    padding: 3% 4%;
+}
+.buttonPadding{
+    padding: 2% 4%;
+}
+
+.image-effect{
+    z-index: 4;
+    -webkit-transition: all 0.3s linear;
+}
+
+
+.image-hover-initiater:hover + .image-effect {
+/*    transition: all 1s;*/
+    border: 30px solid white;
+/*    background-color: rgba(26,129,164,0.9);*/
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+.side-navbar{
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: #1D809F;
+    z-index: 100;
+    transition: width 0.5s;
+}
+
+
